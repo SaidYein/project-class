@@ -1,0 +1,88 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color:rgb(47, 60, 79);
+  }
+  
+  header {
+    display: inline-flex;
+    text-align: center;
+    margin-top: 5px;
+    background-color:white;
+  }
+  header img{
+    height: 100px;
+   
+  }
+  
+  h1 {
+    font-size: 36px;
+    padding: 15px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: 0.8px;
+  }
+  
+  th {
+    border: 2px solid chocolate;
+    border-collapse: separate ;
+    border-radius: 2px;
+    
+  }
+  
+  td {
+    border: 2px chocolate solid;
+    border-collapse: separate;
+    border-radius: 2px;
+  }
+  
+  table tr:first-child, tr:nth-child(2){
+    padding-bottom: 0 auto;
+  }
+
+  table {
+    text-align: center;
+    margin: 20px auto;
+    width: 65%; 
+    color: white;
+    border-spacing: 4px;
+   
+  }
+  
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    z-index: 5;
+    color: white;
+  }
+  
+  table img{
+    height: 100px;
+    
+  }
+ .color {
+   background-color: #03071a;
+   color: whitesmoke;
+   text-align: center;
+ }
+ h4 {
+   position: relative;
+   top: 12px;
+ }
+ span, p {
+font-size: 14px;
+ }

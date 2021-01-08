@@ -1,0 +1,51 @@
+
+.header img{
+display: block;
+margin-left: 30px;
+}
+.header {
+  background-color: rgb(112, 141, 226);
+  text-align: center;
+  padding: 10px;
+}
+.about-me{
+  font-size: 20px;
+  opacity: 70%;
+}
+.title {
+  font-weight: bold;
+}
+h1 {
+  color: #dc234a;
+}
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(./hypnotize_bg.png);
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main{
+  background-color: #75dd58;
+  padding: 10px;
+}
+h2 {
+  color:#dc234a;
+}
+section{
+  background-color:#9ff588 ;
+  text-align: center;
+  margin-top: 0 auto;
+}
+figure img {
+  border-radius:60%;
+  border-radius:50%;
+  width: 190px;
+  border: whitesmoke 3px solid;
+}
+
+
+
+
