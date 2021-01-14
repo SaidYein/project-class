@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="survey.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <title>Document</title>
 </head>
 
@@ -11,37 +14,33 @@
   
 </body>
   <header>
+    <div>
     <h1>ShopAWAY Survey Form</h1>
     <p>Thank you for taking the time to help us improve</p>
+  </div>
   </header>
-<!--  <input 
-  id="username" 
-  type="text" 
-  minlength="3" maxlength="15" 
-  required pattern="[a-zA-Z0-9]" 
-  title="use letter and numbers only"> -->
 
   <main>
     <form id="survey-form" action="./survey_form.html" method="GET">
     <section>
-      <div id="name">
+      <div class="form-group" id="name">
         <label for="name">Name</label><br>
-        <input type="text" placeholder="Enter Your Name" required>
+        <input class="large"  type="text" placeholder="Enter Your Name" required>
       </div>
 
-      <div id="e-mail"> 
+      <div class="form-group" id="e-mail"> 
         <label for="email">Email</label><br>
-        <input type="email" placeholder="Enter your Email"  required>
+        <input class="large" type="email" placeholder="Enter your Email"  required>
       </div>
 
-      <div id="age">
+      <div class="form-group" id="age">
         <label for="age">Age(optional)</label><br>
-        <input type="number" placeholder="Enter your age (10-99)" min="10" max="99" required="[10-99]" required>
+        <input class="large" type="number" placeholder="Enter your age (10-99)" min="10" max="99" required="[10-99]" required>
       </div>
 
-      <div id="job">
+      <div class="form-group" id="job">
         <label for="job">Which option best describes your job?</label><br>
-        <input type="text" list="joblist" name="jobs" id="job">
+        <input class="large"  type="text" list="joblist" name="jobs" id="job">
 
           <datalist id="joblist">
             <option value="Engineering"></option>
@@ -57,7 +56,7 @@
           </datalist>
       </div>
 
-      <div id="recommend">
+      <div class="form-group" id="recommend">
         <label for="recommend">Would you recommend ShopAWAY to a friend?</label><br>
 
         <input type="radio" name="recommendation" id="Definitely">
@@ -70,9 +69,9 @@
         <label for="recommendation">Not Sure</label><br>
       </div>
 
-      <div id="favor">
+      <div class="form-group" id="favor">
         <label for="favorite">What is your favorite feature of ShopAWAY?</label><br>
-        <input type="text" list="favorite_list" name="favorites" id="favorites">
+        <input class="large" type="text" list="favorite_list" name="favorites" id="favorites">
           <datalist id="favorite_list">
             <option value="Visuals"></option>
             <option value="Variety"></option>
@@ -81,7 +80,7 @@
           </datalist>
       </div>
 
-      <div id="improvement">
+      <div class="form-group" id="improvement">
         <label for="improve">What would you like to see improved? (Check all that apply)</label><br>
 
         <input type="checkbox" name="imp" id="imp">
@@ -107,14 +106,20 @@
 
       </div>
 
-      <div id="Comment">
+      <div class="form-group" id="Comment">
         <label for="comment">Any other comments or suggestions?</label><br>
-        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+        <textarea name="comment" id="comment" cols="76" rows="8" placeholder="Enter your comment here..."></textarea>
       </div>
-
+      <a href="index.html">
+        <button type="button">
+          <i class="fa fa-paper-plane"></i>
+          Submit
+        </button>
+      </a>
     </section>
-
-    <button type="submit">Submit</button>
+    <section>
+      
+    </section>
   </form>
   </main>
 
